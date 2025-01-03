@@ -1,4 +1,4 @@
-import { Button } from "@retconned/ui"
+import { Button } from "@readventure/ui"
 import Image from "next/image"
 
 export default function Home() {

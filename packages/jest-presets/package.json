@@ -1,0 +1,21 @@
+{
+  "name": "@readventure/jest-presets",
+  "version": "1.0.0",
+  "description": "Custom Jest presets for ReadVenture packages.",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "browser/jest-preset.ts",
+    "node/jest-preset.ts"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "@types/jest": "^29.5.14",
+    "jest-environment-node": "^29.7.0"
+  },
+  "devDependencies": {}
+}

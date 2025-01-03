@@ -1,43 +1,102 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-node_modules
+# Dependencies
+node_modules/
 .pnp
 .pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/install-state.gz
 
-# testing
-coverage
+# Testing
+coverage/
+.nyc_output/
 
-# next.js
+# Next.js
 .next/
 out/
 dist/
-build
+build/
+web-build/
+web-report/
 next-env.d.ts
 
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
+# Debug & Logs
+npm-debug.*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
 
-# local env files
+# Environment
+.env*
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# turbo
-.turbo
-.turbo_cache
+# Build & Cache
+.turbo/
+.cache/
+.eslintcache
+.temp
+.tmp
 
-# vscode
-.vscode
+# Mobile/React Native
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+android/
+ios/
+*.apk
+*.aab
+*.ipa
 
+# IDE/Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.nova/
 
-# env
-.env
+# System
+.DS_Store
+*.pem
+*.swp
+*~
+
+# Vercel
+.vercel
+
+# PWA
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Misc
+pids
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

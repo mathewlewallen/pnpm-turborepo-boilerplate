@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@retconned/ui"],
+  transpilePackages: ["@readventure/ui"],
   experimental: {
     serverActions: true,
   },

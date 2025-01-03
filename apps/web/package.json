@@ -10,8 +10,8 @@
     "clean": "rm -rf .next && rm -rf node_modules && rm -rf .turbo"
   },
   "dependencies": {
-    "@retconned/ui": "workspace:*",
-    "@retconned/utils": "workspace:*",
+    "@readventure/ui": "workspace:*",
+    "@readventure/utils": "workspace:*",
     "@types/node": "20.1.0",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.4",
@@ -26,9 +26,9 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@retconned/config": "workspace:*",
-    "@retconned/eslint-config-custom": "workspace:*",
-    "@retconned/tsconfig": "workspace:*",
-    "@retconned/prisma-orm": "workspace:*"
+    "@readventure/config": "workspace:*",
+    "@readventure/eslint-config": "workspace:*",
+    "@readventure/tsconfig": "workspace:*",
+    "@readventure/prisma": "workspace:*"
   }
 }

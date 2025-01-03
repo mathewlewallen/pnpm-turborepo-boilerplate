@@ -1,1 +1,1 @@
-module.exports = require('@retconned/config/postcss.config')
+module.exports = require('@readventure/config/postcss.config')

@@ -1,5 +1,5 @@
 {
-  "extends": "@retconned/tsconfig/base.json",
+  "extends": "@readventure/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

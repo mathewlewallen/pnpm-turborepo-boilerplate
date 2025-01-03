@@ -1,0 +1,15 @@
+{
+  "welcome": "¡Bienvenido a readventure!",
+  "get_started": "Comenzar",
+  "login": "Iniciar sesión",
+  "signup": "Registrarse",
+  "logout": "Cerrar sesión",
+  "profile": "Perfil",
+  "settings": "Configuración",
+  "leaderboard": "Tabla de líderes",
+  "reading": "Lectura",
+  "phonics": "Práctica de fonética",
+  "error": "Algo salió mal. Inténtalo de nuevo.",
+  "confirm": "Confirmar",
+  "cancel": "Cancelar"
+}

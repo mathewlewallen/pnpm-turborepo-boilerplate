@@ -1,1 +1,1 @@
-module.exports = require('@retconned/config/commitlint.config')
+module.exports = require('@readventure/config/commitlint.config')

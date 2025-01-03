@@ -1,1 +1,1 @@
-module.exports = require('@retconned/config/prettier.config')
+module.exports = require('@readventure/config/prettier.config')

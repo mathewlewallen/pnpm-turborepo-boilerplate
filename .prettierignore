@@ -1,10 +1,79 @@
-node_modules
-package-lock.json
-public
-build
-coverage
-.turbo
-.turbo_cache
-.next
-next-env.d.ts
-.vscode
+# Node modules
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# TypeScript output directories
+out/
+lib/
+
+# Coverage reports
+coverage/
+
+# Prisma generated files
+prisma/generated/
+prisma/migrations/
+
+# Turbo build cache
+.turbo/
+
+# Next.js specific
+.next/
+
+# Expo specific
+.expo/
+
+# Metro bundler cache (React Native)
+metro-cache/
+.expo-shared/
+
+# Storybook build
+storybook-static/
+
+# Temporary and system files
+*.log
+*.lock
+*.tmp
+*.swp
+.DS_Store
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE specific folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated documentation
+docs/
+
+# Generated files by code generators
+generated/
+gen/
+generated-*
+
+# Tests and test coverage
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Linting reports
+eslint-report.html
+
+# Package build outputs
+apps/**/dist/
+apps/**/build/
+packages/**/dist/
+packages/**/build/

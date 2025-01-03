@@ -1,13 +1,13 @@
 {
-  "name": "@retconned/utils",
-  "author": "retconned <retcnned@gmail.com>",
+  "name": "@readventure/utils",
+  "author": "readventure",
   "main": "./index.ts",
   "types": "./index.ts",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "@retconned/eslint-config-custom": "workspace:*",
-    "@retconned/tsconfig": "workspace:*",
+    "@readventure/eslint-config": "workspace:*",
+    "@readventure/tsconfig": "workspace:*",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "eslint": "^7.32.0"

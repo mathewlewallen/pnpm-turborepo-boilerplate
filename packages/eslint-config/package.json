@@ -1,0 +1,44 @@
+{
+  "name": "@readventure/eslint-config",
+  "version": "0.0.0",
+  "description": "Eslint configurations shared between all apps and packages",
+  "author": "readventure",
+  "keywords": [
+    "eslint"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "exports": {
+    "./base": "./base.js",
+    "./next": "./next.js",
+    "./react": "./react.cjs",
+    "./react-native": "./react-native.js",
+    "./node": "./node.js"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "eslint-config-next": "13.5.8",
+    "@next/eslint-plugin-next": "^13.5.8",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-turbo": "^2.0.0",
+    "eslint-plugin-mdx": "^3.1.5",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "6.6.0",
+    "eslint-plugin-nuxt": "4.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react-native": "^5.0.0"
+  }
+}

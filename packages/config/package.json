@@ -1,7 +1,7 @@
 {
-  "name": "@retconned/config",
+  "name": "@readventure/config",
   "version": "0.0.0",
-  "author": "retconned <retcnned@gmail.com>",
+  "author": "readventure",
   "keywords": [
     "config",
     "configuration"

@@ -1,1 +1,1 @@
-module.exports = require('@retconned/config/tailwind.config')
+module.exports = require('@readventure/config/tailwind.config')
